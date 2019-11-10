@@ -1,8 +1,7 @@
 
 # Webtrees Compact Theme (Webtrees 2 Custom Module)
 
-This [webtrees](https://www.webtrees.net/) custom module modifies the default 'webtrees' theme, providing a more compact layout similar to the webtrees 1.x version.  
-The project’s website is [cissee.de](https://cissee.de). 
+This [webtrees](https://www.webtrees.net/) custom module modifies the default 'webtrees' theme, providing a more compact layout similar to the webtrees 1.x version. The project’s website is [cissee.de](https://cissee.de). 
 
 This is a webtrees 2.x module - It cannot be used with webtrees 1.x.
 
@@ -31,8 +30,8 @@ default 'webtrees' theme   |  'webtrees compact' theme
 
 ### Download<a name="download"/>
 
-* Current version: 2.0.0-beta.3.1
-* Based on and tested with webtrees 2.0.0-beta.3. Cannot be used with webtrees 1.x!
+* Current version: 2.0.0-beta.4.0.1
+* Based on and tested with webtrees 2.0.0-beta.4 (unreleased dev). Cannot be used with webtrees 1.x!
 * Download the zipped module [here](https://cissee.de/themes.latest.zip).
 * Support, suggestions, feature requests: <ric@richard-cissee.de>
 * Issues also via <https://github.com/ric2016/compact_webtrees/issues>

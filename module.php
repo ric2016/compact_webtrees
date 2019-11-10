@@ -56,7 +56,6 @@ return new class extends WebtreesTheme implements ModuleCustomInterface {
 
         // Replace an existing view with our own version.
         View::registerCustomView('::individual-page', $this->name() . '::individual-page');
-        View::registerCustomView('::individual-page-menu', $this->name() . '::individual-page-menu');
     }
 
     /**
@@ -85,6 +84,7 @@ return new class extends WebtreesTheme implements ModuleCustomInterface {
 
         return $stylesheets;
     }
+    
     public function assetsViaViews(): array {
       return [
           'css/theme.css' => 'css/theme'];

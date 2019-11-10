@@ -72,22 +72,31 @@ dl dt{
 }
 
 /* 
+everywhere: do not use sex icon images
+*/
+
+.wt-icon-sex-m {
+	content: none;
+	color: #31639c;
+}
+
+.wt-icon-sex-f {
+	content: none;
+	color: #9c3163;
+}
+
+.wt-icon-sex-u {
+	content: none;
+}
+
+/* 
 individual: sex icon
 */
 
-.vt_gender .wt-icon-sex-f {
+.vt_gender .wt-icon-sex-m,.vt_gender .wt-icon-sex-f,.vt_gender .wt-icon-sex-u {
   width: 0.8em;
 	height: 0.8em;
-}
-
-.vt_gender .wt-icon-sex-m {
-  width: 0.8em;
-	height: 0.8em;
-}
-
-.vt_gender .wt-icon-sex-u {
-  width: 0.8em;
-	height: 0.8em;
+  font-size: 1.5rem !important;
 }
 
 /* 
