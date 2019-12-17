@@ -27,7 +27,7 @@ return new class extends WebtreesTheme implements ModuleCustomInterface {
     }
 
     public function customModuleVersion(): string {
-      return '2.0.0.1';
+      return '2.0.0.2';
     }
 
     public function customModuleLatestVersionUrl(): string {
