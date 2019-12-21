@@ -30,7 +30,7 @@ default 'webtrees' theme   |  'webtrees compact' theme
 
 ### Download<a name="download"/>
 
-* Current version: 2.0.0.2
+* Current version: 2.0.0.3
 * Based on and tested with webtrees 2.0.0. Cannot be used with webtrees 1.x, or earlier 2.x versions!
 * Download the zipped module [here](https://cissee.de/themes.latest.zip).
 * Support, suggestions, feature requests: <ric@richard-cissee.de>
