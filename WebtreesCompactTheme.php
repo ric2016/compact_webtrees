@@ -24,7 +24,7 @@ class WebtreesCompactTheme extends WebtreesTheme implements ModuleCustomInterfac
   }
 
   public function customModuleVersion(): string {
-    return '2.0.0.3';
+    return '2.0.1.1';
   }
 
   public function customModuleLatestVersionUrl(): string {
@@ -33,12 +33,6 @@ class WebtreesCompactTheme extends WebtreesTheme implements ModuleCustomInterfac
 
   public function customModuleSupportUrl(): string {
     return 'https://cissee.de';
-  }
-
-  public function __construct() {
-    //hack until webtrees 2.0.1 release with fix for #2830
-    $this->setName("_compact_webtrees_");
-    $this->boot();
   }
           
   /**

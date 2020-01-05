@@ -30,8 +30,8 @@ default 'webtrees' theme   |  'webtrees compact' theme
 
 ### Download<a name="download"/>
 
-* Current version: 2.0.0.3
-* Based on and tested with webtrees 2.0.0. Cannot be used with webtrees 1.x, or earlier 2.x versions!
+* Current version: 2.0.1.1
+* Based on and tested with webtrees 2.0.1. Cannot be used with webtrees 1.x. May not work with earlier 2.x versions!
 * Download the zipped module [here](https://cissee.de/themes.latest.zip).
 * Support, suggestions, feature requests: <ric@richard-cissee.de>
 * Issues also via <https://github.com/ric2016/compact_webtrees/issues>
@@ -44,7 +44,7 @@ default 'webtrees' theme   |  'webtrees compact' theme
 ### License<a name="license"/>
 
 * **compact_webtrees: a webtrees custom module**
-* Copyright (C) 2019 Richard Cissée
+* Copyright (C) 2019 - 2020 Richard Cissée
 
 * Derived from **webtrees** - Copyright (C) 2010 to 2019 webtrees development team.
 
