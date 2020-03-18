@@ -17,18 +17,21 @@ use function view;
 
 class WebtreesCompactTheme extends WebtreesTheme implements ModuleCustomInterface {
   
+  use VestaModuleCustomTrait {
+    VestaModuleCustomTrait::customModuleLatestVersion insteadof ModuleCustomTrait;
+  }
   use ModuleCustomTrait;
 
   public function customModuleAuthorName(): string {
     return 'Richard Cissée';
   }
-
+  
   public function customModuleVersion(): string {
-    return '2.0.2.1';
+    return file_get_contents(__DIR__ . '/latest-version.txt');
   }
 
   public function customModuleLatestVersionUrl(): string {
-    return 'https://cissee.de';
+    return 'https://raw.githubusercontent.com/ric2016/compact_webtrees/master/latest-version.txt';
   }
 
   public function customModuleSupportUrl(): string {

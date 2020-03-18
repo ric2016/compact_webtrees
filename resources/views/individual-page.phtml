@@ -89,16 +89,7 @@ use Illuminate\Support\Collection;
         <?= $individual->lifespan() ?> <?= $age ?>
     </h2>
     <?php if ($individual->canEdit()) : ?>
-        <?php
-          //ongoing changes in webtrees, remove after next webtrees release 2.0.2!
-          if (!isset($count_names)) {
-            $count_names = 0;
-          }
-          if (!isset($count_sex)) {
-            $count_sex = 0;
-          }
-        ?>
-        <?= view('individual-page-menu', ['individual' => $individual, 'count_names' => $count_names, 'count_sex' => $count_sex, 'tree' => $tree]) ?>
+        <?= view('individual-page-menu', ['individual' => $individual, 'tree' => $tree]) ?>
     <?php endif ?>
 </div>
 
