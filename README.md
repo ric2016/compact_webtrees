@@ -3,6 +3,8 @@
 
 This [webtrees](https://www.webtrees.net/) custom module modifies the default 'webtrees' theme, providing a more compact layout similar to the webtrees 1.x version. The project’s website is [cissee.de](https://cissee.de). 
 
+This module will not be developed further. Consider using the 'Vesta Classic Look & Feel' module instead!
+
 This is a webtrees 2.x module - It cannot be used with webtrees 1.x.
 
 ## Contents
@@ -30,8 +32,8 @@ default 'webtrees' theme   |  'webtrees compact' theme
 
 ### Download<a name="download"/>
 
-* Current version: 2.0.4.0
-* Based on and tested with webtrees 2.0.4. Cannot be used with webtrees 1.x. May not work with earlier 2.x versions!
+* Current version: 2.0.5.FINAL
+* Based on and tested with webtrees 2.0.5. Cannot be used with webtrees 1.x. May not work with earlier 2.x versions!
 * Download the zipped module [here](https://cissee.de/themes.latest.zip).
 * Support, suggestions, feature requests: <ric@richard-cissee.de>
 * Issues also via <https://github.com/ric2016/compact_webtrees/issues>
